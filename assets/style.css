@@ -17,7 +17,7 @@ body *{
     letter-spacing: -0.02em;
 }
 .container{
-    margin-inline: 1rem;
+    padding-inline: 1rem;
 }
 .calculator{
     width: 355px;
@@ -31,13 +31,14 @@ body *{
     padding-inline: 54px;
 
 }
-#last-calc{
+#last{
     text-align: right;
     font-size: 20px;
-    list-style: 140%;
+    line-height: 140%;
     color: #6b6b6b;
-
+    height: 28px;
 }
+
 #result{
     display: flex;
     margin-top: 8px;
@@ -45,12 +46,12 @@ body *{
 }
 #result span{
     font-size: 36px;
-    list-style: 140%;
+    line-height: 140%;
     color: #EBEBEB;
 }
 #keyboard{
-    margin-top: 26px;
-    margin-inline: 32px;
+    padding-top: 26px;
+    padding-inline: 32px;
     padding-bottom: 32px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
